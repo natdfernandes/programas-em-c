@@ -12,6 +12,9 @@ int main(void)
     if (mediafinal >=7){
         printf("Aprovado ");
     }
+    else if (mediafinal >=5){
+        printf ("Recuperação ");
+    }
     else {
         printf ("Reprovado ");
     }
