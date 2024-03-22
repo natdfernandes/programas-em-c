@@ -12,6 +12,9 @@ int main(void)
     if (mediafinal >=7){
         printf("Aprovado ");
     }
+    else {
+        printf ("Reprovado ");
+    }
     printf("%f", mediafinal);
 
     return (0);
