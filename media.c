@@ -9,6 +9,9 @@ int main(void)
     scanf("%f", &p3);
     scanf("%f", &p4);
     mediafinal = (p1 + p2 + p3 + p4) / 4;
+    if (mediafinal >=7){
+        printf("Aprovado ");
+    }
     printf("%f", mediafinal);
 
     return (0);
